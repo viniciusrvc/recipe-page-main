@@ -1,0 +1,45 @@
+
+*,
+*::before,
+*::after {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: "outfit";
+    src: url(/src/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "young-serif";
+    src: url(/src/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    font-family: "outfit", "sans-serif";
+    background-color: hsl(30, 54%, 90%);
+}
+
+h1, h2 {
+    font-family: "young-serif";
+}
+
+
+
+
+
+
+@media (max-width:400px) {
+    .recipe-container {
+        width: 100%;
+        margin: 0;
+    }
+    .recipe-container img {
+        width: 100%;
+        margin: 0;
+    }
+}
